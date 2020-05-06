@@ -18,7 +18,7 @@ A laravel service provider to export metrics for prometheus.
 [![Laravel 5.7][icon-l57]][link-laravel]
 [![Laravel 5.8][icon-l58]][link-laravel]
 [![Laravel 6.0][icon-l60]][link-laravel]
-[![Laravel 7.0][icon-l70]][link-laravel]
+[![Laravel 7.0][icon-l60]][link-laravel]
 
 
 ## Main features
@@ -83,14 +83,7 @@ Route::get(
 );
 ```
 
-#### Lumen
-When you are using lumen you must register the route on your own. Here is an example:
-```
-Route::get(
-    ROUTE,
-    \Triadev\PrometheusExporter\Controller\LumenController::class . '@metrics'
-);
-```
+
 
 ### Middleware
 
