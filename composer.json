@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Marvin9002\\PrometheusExporter\\": "src/"
+            "Triadev\\PrometheusExporter\\": "src/"
         }
     },
     "autoload-dev": {
@@ -41,7 +41,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Marvin9002\\PrometheusExporter\\Provider\\PrometheusExporterServiceProvider"
+                "Triadev\\PrometheusExporter\\Provider\\PrometheusExporterServiceProvider"
             ]
         }
     },
