@@ -1,6 +1,6 @@
 {
     "name": "marvin9002/prometheus-exporter",
-    "description": "A laravel and lumen service provider to export metrics for prometheus.",
+    "description": "A laravel  service provider to export metrics for prometheus.",
     "keywords": [
         "Laravel",
         "Prometheus",
@@ -24,7 +24,6 @@
         "mockery/mockery": "~1.0",
         "orchestra/testbench": "~3.0",
         "laravel/framework": "~5.6",
-        "laravel/lumen-framework": "~5.6",
         "squizlabs/php_codesniffer": "^3.0"
     },
     "suggest": {
@@ -33,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Triadev\\PrometheusExporter\\": "src/"
+            "Marvin9002\\PrometheusExporter\\": "src/"
         }
     },
     "autoload-dev": {
@@ -44,7 +43,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Triadev\\PrometheusExporter\\Provider\\PrometheusExporterServiceProvider"
+                "Marvin9002\\PrometheusExporter\\Provider\\PrometheusExporterServiceProvider"
             ]
         }
     },
