@@ -11,13 +11,14 @@
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/triadev/LaravelPrometheusExporter.svg)](http://isitmaintained.com/project/triadev/LaravelPrometheusExporter "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/triadev/LaravelPrometheusExporter.svg)](http://isitmaintained.com/project/triadev/LaravelPrometheusExporter "Percentage of issues still open")
 
-A laravel and lumen service provider to export metrics for prometheus.
+A laravel service provider to export metrics for prometheus.
 
 ## Supported laravel versions
 [![Laravel 5.6][icon-l56]][link-laravel]
 [![Laravel 5.7][icon-l57]][link-laravel]
 [![Laravel 5.8][icon-l58]][link-laravel]
 [![Laravel 6.0][icon-l60]][link-laravel]
+[![Laravel 7.0][icon-l70]][link-laravel]
 
 
 ## Main features
